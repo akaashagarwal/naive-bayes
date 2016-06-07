@@ -1,4 +1,4 @@
-# Naive-Bayes-Scratch
+# Description
 The purpose of this project, as the heading suggests, is to implement the Naive Bayes Classifier in Python from scratch.
 The focus here is not to maximise the prediction accuracy, but it is to translate the theoretical base of the Naive Bayes into code, therefore steps to visualize data and perform data exploration have been skipped. Missing values, however, have been imputed.
 
