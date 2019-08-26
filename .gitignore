@@ -8,3 +8,5 @@ venv*
 *.mypy
 .ipynb_checkpoints
 __pycache__
+build*
+dist*
