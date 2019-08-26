@@ -9,8 +9,8 @@ import numpy as np  # noqa: I100
 import pandas as pd
 
 from sklearn.naive_bayes import BernoulliNB  # noqa: I202
+from src.algorithm import NaiveBayes
 from src.datawrangling import DataWrangling
-from src.naivebayes import NaiveBayes
 
 TEST_DATA_PATH = 'src/data/data.csv'
 
