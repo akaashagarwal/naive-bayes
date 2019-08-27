@@ -26,8 +26,8 @@ class NaiveBayes():
         """
         self.features = list(x_train.columns)
         self.data_store = {'y_train': y_train, 'x_train': x_train}
-        self.likelihoods = {}
-        self.class_priors = {}
+        self.likelihoods: dict = {}
+        self.class_priors: dict = {}
         for feature in self.features:
             self.likelihoods[feature] = {}
             for class_val in self.data_store['y_train'].unique():
@@ -154,7 +154,6 @@ class NaiveBayes():
             """
             return x_1 * x_2
 
-        max_posterior_class = ''
         max_posterior_prob = 0
 
         # Calculate posterior probabilties over class label set C and find max.

@@ -23,7 +23,7 @@ class DataWrangling():
 
         """
         self.data_path = data_path
-        self._data = ''
+        self._data = pd.DataFrame()
 
     @property
     def data(self) -> pd.DataFrame:
