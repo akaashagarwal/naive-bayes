@@ -2,7 +2,7 @@
 from setuptools import find_packages, setup
 
 REQUIREMENTS = [
-    'pandas == 0.25.1', 'numpy == 1.17.0', 'scikit-learn == 0.20.4'
+    'pandas == 0.25.1', 'numpy == 1.22.0', 'scikit-learn == 0.20.4'
 ]
 
 setup(name="naivebayes",
